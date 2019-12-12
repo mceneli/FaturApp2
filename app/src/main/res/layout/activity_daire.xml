@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaireActivity">
+
+    <TextView
+        android:id="@+id/daireText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Daire"
+        android:textColor="#2B2B2B"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch21"
+        app:layout_constraintTop_toBottomOf="@+id/switch21" />
+
+    <Switch
+        android:id="@+id/switch23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch22"
+        app:layout_constraintTop_toBottomOf="@+id/switch22" />
+
+    <Switch
+        android:id="@+id/switch24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch23"
+        app:layout_constraintTop_toBottomOf="@+id/switch23" />
+
+    <Switch
+        android:id="@+id/switch25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch24"
+        app:layout_constraintTop_toBottomOf="@+id/switch24" />
+
+    <Switch
+        android:id="@+id/switch26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch25"
+        app:layout_constraintTop_toBottomOf="@+id/switch25" />
+
+    <Switch
+        android:id="@+id/switch27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch26"
+        app:layout_constraintTop_toBottomOf="@+id/switch26" />
+
+    <Switch
+        android:id="@+id/switch29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch27"
+        app:layout_constraintTop_toBottomOf="@+id/switch27" />
+
+    <Switch
+        android:id="@+id/switch30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch29"
+        app:layout_constraintTop_toBottomOf="@+id/switch29" />
+
+    <Switch
+        android:id="@+id/switch31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch30"
+        app:layout_constraintTop_toBottomOf="@+id/switch30" />
+
+    <Switch
+        android:id="@+id/switch32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch31"
+        app:layout_constraintTop_toBottomOf="@+id/switch31" />
+
+    <Switch
+        android:id="@+id/switch33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch32"
+        app:layout_constraintTop_toBottomOf="@+id/switch32" />
+
+    <Switch
+        android:id="@+id/switch34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch33"
+        app:layout_constraintTop_toBottomOf="@+id/switch33" />
+
+    <Switch
+        android:id="@+id/switch35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch34"
+        app:layout_constraintTop_toBottomOf="@+id/switch34" />
+
+    <Switch
+        android:id="@+id/switch36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/switch35"
+        app:layout_constraintTop_toBottomOf="@+id/switch35" />
+
+    <Button
+        android:id="@+id/uygula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Uygula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch36" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
